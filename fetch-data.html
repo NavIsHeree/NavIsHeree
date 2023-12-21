@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="demo_styles.css">
+  <title>Fetch Data</title>
+  <style>
+    body {
+      background-color: #e6e6fa; /* Light purple background for the entire page */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Set the height to the full viewport height */
+      margin: 0; /* Remove default body margin */
+    }
+
+    h1 {
+      color: #4b0082; /* Dark purple color for the main heading */
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: #ffffff; /* White background for the table */
+    }
+
+    th, td {
+      border: 1px solid #ddd; /* Add borders within table cells */
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2; /* Light gray background for table headers */
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Alarmy Data</h1>
+
+
+    <table>
+      <thead>
+        <tr>
+          <th>Alarm Time (in hours)</th>
+          <th>Distance Covered (in cms)</th>
+          <th>Ringing Time (in seconds)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>7.5</td>
+          <td>15</td>
+          <td>55</td>
+        </tr>
+
+        <tr>
+          <td>7.5</td>
+          <td>25</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>6.75</td>
+          <td>22</td>
+          <td>33</td>
+        </tr>
+
+
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="demo_script.js"></script>
+</body>
+</html>

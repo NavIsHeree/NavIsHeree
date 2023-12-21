@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="demo_styles.css">
+  <title>Your Alarm Clock</title>
+</head>
+<body>
+  <h1>Alarm clock data</h1>
+  <form id="demo_alarmForm">
+    <label for="demo_alarmTime">Set Alarm Time:</label>
+    <input type="time" id="demo_alarmTime" required>
+
+    <button type="button" id="demo_setAlarmBtn">Set Alarm</button>
+    <button type="button" id="demo_snoozeBtn">Snooze</button>
+  </form>
+
+  <a href="templates/fetch-data.html" class="redirect-btn">Fetch Data</a>
+
+  <div id="demo_alarmData"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="demo_script.js"></script>
+</body>
+</html>
